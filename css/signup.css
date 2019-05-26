@@ -1,0 +1,90 @@
+.logo{
+  width: 100%;
+}
+.logo{
+  width:160px;
+  height: 100px;
+  margin:0px auto;
+  padding-left: 600px;
+  padding-right: 600px;
+}
+
+.form, input[type=text],input[type=password]{
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    text-indent: 5px;
+  }
+  input[type=text]:focus ,input[type=password]:focus
+  {
+     border-color: #e77600;
+     box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+  }
+
+.form {
+    display: block;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    position: relative;
+    padding: 14px 18px;
+    width: 260px;
+    margin: 0px auto;
+  }
+input[type=text] ,input[type=password]{
+  outline-style: none;
+}
+
+body {
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #111;
+    font-family: Arial,sans-serif;
+    padding : 0;
+    border: 0;
+}
+
+.signup2{
+  height: 40px;
+}
+
+input[type=text],input[type=submit] ,input[type=password]{
+  width:250px;
+  height:25px;
+  letter-spacing: 0.7px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #5cb85c;
+    border-style: hidden;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-style: hidden;
+    border-radius: 4px;
+    outline: none;
+  }
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+.a{
+  padding-top: 30px;
+}
+
+input[type=radio]{
+  height: 10px;
+}
+
+.radio{
+    padding-bottom: 10px;
+}
